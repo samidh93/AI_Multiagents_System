@@ -1,0 +1,32 @@
+2025-01-26 16:05:55,770 - INFO - Loading environment variables from .env
+2025-01-26 16:05:55,771 - INFO - Successfully loaded OPENAI_API_KEY
+2025-01-26 16:05:56,386 - INFO - Initializing tools
+2025-01-26 16:05:56,386 - INFO - Creating LLM and agent
+2025-01-26 16:05:56,430 - INFO - Agent created successfully
+2025-01-26 16:05:56,454 - INFO - Sending first user message
+2025-01-26 16:05:57,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:05:57,308 - INFO - Received response from agent
+2025-01-26 16:05:57,308 - INFO - Sending second user message
+2025-01-26 16:05:57,894 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:05:57,895 - INFO - Received response from agent
+2025-01-26 16:05:57,897 - INFO - Researching topic: AI Agents
+2025-01-26 16:05:57,897 - INFO - Research result for AI Agents: AI Agents are self-contained systems that perform tasks. They are used to build more complex systems.
+2025-01-26 16:05:57,898 - INFO - Received response from agent
+2025-01-26 16:05:59,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:05:59,114 - INFO - Received response from agent
+2025-01-26 16:05:59,115 - INFO - Summarizing content
+2025-01-26 16:05:59,115 - INFO - Summarization result: Summary:
+- AI Agents are self-contained systems that perform tasks.
+- They are used to build more complex systems.
+2025-01-26 16:05:59,115 - INFO - Received response from agent
+2025-01-26 16:05:59,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-26 16:05:59,287 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2025-01-26 16:06:20,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:06:20,559 - INFO - Received response from agent
+2025-01-26 16:06:20,564 - INFO - Saving content to output.txt
+2025-01-26 16:06:20,566 - INFO - Text saved successfully as 'output.txt'.
+2025-01-26 16:06:20,567 - INFO - Received response from agent
+2025-01-26 16:06:20,721 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-26 16:06:20,722 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2025-01-26 16:06:41,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:06:41,945 - INFO - Received response from agent

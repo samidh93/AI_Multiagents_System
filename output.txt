@@ -1,0 +1,3 @@
+Summary:
+- AI Agents are self-contained systems that perform tasks.
+- They are used to build more complex systems.

@@ -1,0 +1,9 @@
+langchain-openai
+langgraph
+python-dotenv
+langchain-community 
+langchain-anthropic 
+tavily-python 
+langgraph-checkpoint-sqlite
+google-search-results
+langchain-google-community 

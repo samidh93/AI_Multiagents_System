@@ -1,0 +1,9 @@
+# python gitignore
+*.egg
+*.egg-info
+*.mo
+*.pyc
+*.pyo
+__pycache__/
+venv/
+.env
